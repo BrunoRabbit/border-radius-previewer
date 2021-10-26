@@ -13,3 +13,8 @@ The border-radius property can have multiple values changed. Preview how the sha
 ## Bonus features
 
 -   ❌ User can change all 8 possible values of the border-radius in order to create a complex shape
+
+## Project overview
+
+   [![Everything Is AWESOME](https://i.imgur.com/D2DgrUx.png)](https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6858555228099284992?compact=1")
+
