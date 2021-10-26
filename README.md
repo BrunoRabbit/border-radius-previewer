@@ -1,16 +1,15 @@
-# border_radius_previewer
+# Border-radius Previewer
 
-A new Flutter project.
+**Tier:** 1-Beginner
 
-## Getting Started
+The border-radius property can have multiple values changed. Preview how the shape looks while changing these values.
 
-This project is a starting point for a Flutter application.
+## User Stories
 
-A few resources to get you started if this is your first Flutter project:
+-   ✔️ User can see a box which has a `border-radius` property applied to it
+-   ✔️ User can change the 4 `border-radius` values that are applied to the box (top-left, top-right, bottom-left, bottom-right)
+-   ✔️ User can copy the resulting CSS to the clipboard
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Bonus features
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+-   ❌ User can change all 8 possible values of the border-radius in order to create a complex shape
