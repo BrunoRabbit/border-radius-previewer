@@ -1,6 +1,5 @@
 import 'package:border_radius_previewer/controller/controller.dart';
 import 'package:border_radius_previewer/pages/home_screen.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -17,13 +16,10 @@ class MyApp extends StatelessWidget {
       providers: [
         ChangeNotifierProvider(create: (_) => Controller()),
       ],
-      child: MaterialApp(
-        title: 'Border Radius Previwer',
+      child: const MaterialApp(
+        title: 'Border Radius Previewer',
         debugShowCheckedModeBanner: false,
-        theme: ThemeData(
-          primarySwatch: Colors.blue,
-        ),
-        home: const HomeScreen(),
+        home: HomeScreen(),
       ),
     );
   }
